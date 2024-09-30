@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.icon-apple{
+    font-size: 45px;
+    color: black;
+}
+.contacts{  
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.back-black{
+    background-color: black;
+    color: #fff;
+}
+.back-black:hover{
+    background-color: #fff;
+    color: black;
+    transition: 1ms;
+}
