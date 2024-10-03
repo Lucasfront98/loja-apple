@@ -13,34 +13,37 @@
     <title>Apple Hub</title>
 </head>
 <body>
-    <header class="navbar navbar-expang-lg stick-top d-sm-flex">
+    <header class="navbar navbar-expand-lg stick-top d-sm-block">
         <div class="container">
         <i class="bi bi-apple icon-apple"></i>
         <h1 class="navbar navbar-brand m-0 fs-3">Apple Hub</h1>
-        <nav class="nav-bar-collapse justify-content-end d-flex" id="menu">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            <i class="bi bi-list"></i>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
             <ul class="nav nav-pills d-block d-md-flex">
-                <li class="nav-item fw-bold" id="links">
-                    <a class="nav-link text-colored back-black m-1 " href="#sobre">
-                        <i class="bi bi-card-text"></i>
-                        Sobre
+                <li class="nav-item fw-bold">
+                    <a href="#sobre-o-restaurante" class="nav-link back-black">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre o restaurante
                     </a>
                 </li>
-                <li class="nav-item fw-bold"  id="links">
-                    <a class="nav-link text-colored back-black m-1" href="#computadores">
-                        <i class="bi bi-laptop"></i>
-                        Computadores
+                <li class="nav-item fw-bold">
+                    <a href="#Eventos" class="nav-link  back-black">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Eventos
                     </a>
                 </li>
-                <li class="nav-item fw-bold"  id="links">
-                    <a class="nav-link text-colored back-black m-1" href="#smartphones">
-                        <i class="bi bi-phone"></i>
-                        Smartphone
+                <li class="nav-item fw-bold">
+                    <a href="#cardapio" class="nav-link  back-black">
+                        <i class="bi bi-card-text me-1"></i>
+                        Nosso cardápio
                     </a>
                 </li>
-                <li class="nav-item fw-bold"  id="links">
-                    <a class="nav-link text-colored back-black m-1" href="#contatos">
-                        <i class="bi bi-chat"></i>
-                        Contatos
+                <li class="nav-item fw-bold">
+                    <a href="#fale-conosco" class="nav-link  back-black">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Fale conosco
                     </a>
                 </li>
             </ul>
@@ -48,13 +51,13 @@
         </div>
     </header>
     <section id="sobre">
-        <div class="pt-4 pb-4">
+        <div>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row  justify-content-center">
+                    <div class="col-lg-5 d-sm-block">
                         <img src="./image/fachada.jpeg" class="d-block rounded w-100" alt="">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-5 d-sm-block">
                         <h2>Sobre a loja</h2>
                         <p class="fs-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae cumque vitae ut placeat, officiis eum laboriosam distinctio dolorum labore adipisci quod nostrum, deserunt fugit excepturi illo earum nesciunt rem.
@@ -66,8 +69,8 @@
     </section>
     <Section  id="#computadores">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 m-5 card">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-5 col-lg-3 m-5 card" >
                         <div id="carousel-produto-pc" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
@@ -100,8 +103,8 @@
                             </button>
                         </div>
                 </div>
-                <div class="col-md-3 m-5 card">
-                        <div id="carousel-produto-pc1" class="carousel slide" data-ride="carousel">
+                <div class="col-md-4 col-sm-5 col-lg-3 m-5 card">
+                        <div id="carousel-produto-pc" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
                                     <img src="./image/PCs/mac.webp" class="w-100" alt="">
@@ -113,10 +116,10 @@
                                     <img src="./image/PCs/mac3.webp" class="w-100" alt="">
                                 </div>
                             </div>
-                            <button data-bs-target="#carousel-produto-pc1" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                            <button data-bs-target="#carousel-produto-pc" data-bs-slide="prev" class="carousel-control-prev" type="button">
                                 
                             </button>
-                            <button data-bs-target="#carousel-produto-pc1" data-bs-slide="next" class="carousel-control-next" type="button">
+                            <button data-bs-target="#carousel-produto-pc" data-bs-slide="next" class="carousel-control-next" type="button">
                                 
                             </button>
                         </div>
@@ -133,8 +136,8 @@
                             </button>
                         </div>
                 </div>
-                <div class="col-md-3 m-5 card">
-                        <div id="carousel-produto-pc2" class="carousel slide" data-ride="carousel">
+                <div class="col-md-4 col-sm-5 col-lg-3 m-5 card">
+                        <div id="carousel-produto-pc" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
                                     <img src="./image/PCs/mac.webp" class="w-100" alt="">
@@ -146,10 +149,10 @@
                                     <img src="./image/PCs/mac3.webp" class="w-100" alt="">
                                 </div>
                             </div>
-                            <button data-bs-target="#carousel-produto-pc2" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                            <button data-bs-target="#carousel-produto-pc" data-bs-slide="prev" class="carousel-control-prev" type="button">
                                 
                             </button>
-                            <button data-bs-target="#carousel-produto-pc2" data-bs-slide="next" class="carousel-control-next" type="button">
+                            <button data-bs-target="#carousel-produto-pc" data-bs-slide="next" class="carousel-control-next" type="button">
                                 
                             </button>
                         </div>
@@ -170,8 +173,8 @@
     </Section>
     <section id="smartphones">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 m-5 card">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-5 col-lg-3 m-5 card">
                     <div id="carousel-produto-iphone" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -204,7 +207,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-md-3 m-5 card">
+                <div class="col-md-4 col-sm-5 col-lg-3 m-5 card">
                     <div id="carousel-produto-iphone-1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -237,7 +240,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-md-3 m-5 card">
+                <div class="col-md-4 col-sm-5 col-lg-3 m-5 card">
                     <div id="carousel-produto-iphone-2" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -257,7 +260,6 @@
                             
                         </button>
                     </div>
-                    
                     <div class="card-body">
                         <h5 class="card-tittle">
                             Iphone 16
@@ -275,7 +277,7 @@
     <section id="contatos">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-lg-7">
                     <form>
                         <div class="form-group">
                             <label class="form-label fw-bold my-2" for="nome">
@@ -306,7 +308,7 @@
                             </button>    
                     </form>
                 </div>
-                <div class="col-md-5 d-block">
+                <div class="col-lg-5 d-block">
                     <h2>Nossas redes</h2>
                     <a href="">
                         <i class="d-flex my-2 contacts bi bi-facebook"></i>
@@ -324,9 +326,7 @@
                         <strong>Endereço:</strong><br>
                         Rua Exemplo, 123<br>
                         Bairro Exemplo<br>
-                        Cidade, Estado, 00000-000<br>
-                        <a href="mailto:contato@empresa.com" class="text-white">contato@empresa.com</a><br>
-                        <a href="tel:+5511999999999" class="text-white">+55 (11) 99999-9999</a>
+                        Cidade, Estado, 00000-000
                     </address>
                 </div>
             </div>
